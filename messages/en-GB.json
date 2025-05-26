@@ -1,0 +1,71 @@
+{
+  "sidebar": {
+    "appTitle": "Medicine Tracking Programme",
+    "menu": {
+      "dashboard": "Dashboard",
+      "patients": "Patients",
+      "prescriptions": "Prescriptions",
+      "settings": "Settings"
+    },
+    "user": {
+      "doctorName": "Dr John Doe",
+      "profile": "Profile",
+      "signOut": "Sign Out"
+    }
+  },
+  "landing": {
+    "welcomeMessage": "Welcome to the Medicine Tracking Programme",
+    "description": "Track your patients' medicines and prescriptions efficiently.",
+    "getStarted": "Get Started",
+    "hero": {
+      "title": "Modern Prescription Management",
+      "subtitle": "Streamline your medical prescriptions with our secure digital platform. Track medicines, receive reminders, and stay healthy."
+    },
+    "features": {
+      "digitalPrescriptions": {
+        "title": "Digital Prescriptions",
+        "description": "Manage and track your medical prescriptions digitally"
+      },
+      "secureAccess": {
+        "title": "Secure Access",
+        "description": "Your health data is protected with enterprise-grade security"
+      },
+      "medicineTracking": {
+        "title": "Medicine Tracking",
+        "description": "Keep track of your medicine schedule and dosage"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "contact": "Contact",
+        "careers": "Careers"
+      },
+      "legal": {
+        "title": "Legal",
+        "impressum": "Legal Notice",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      },
+      "resources": {
+        "title": "Resources",
+        "docs": "Documentation",
+        "support": "Support",
+        "faq": "FAQ"
+      },
+      "connect": {
+        "title": "Connect",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn"
+      },
+      "copyright": "© {year} MedTracker. All rights reserved."
+    },
+    "auth": {
+      "signIn": "Sign In",
+      "register": "Get Started",
+      "startTrial": "Start Free Trial"
+    }
+  }
+}

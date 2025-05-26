@@ -1,0 +1,48 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Patient {
+  id            Int            @id @default(autoincrement())
+  createdAt     DateTime       @default(now()) @map("created_at")
+  updatedAt     DateTime       @default(now()) @updatedAt @map("updated_at")
+  name          String
+  dateOfBirth   DateTime       @map("date_of_birth")
+  prescriptions Prescription[]
+
+  @@map("med_patients")
+}
+
+model Prescription {
+  id         Int       @id @default(autoincrement())
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @default(now()) @updatedAt @map("updated_at")
+  patientId  Int       @map("patient_id")
+  doctorId   Int       @map("doctor_id")
+  medication String
+  frequency  String
+  duration   String
+  Patient    Patient   @relation(fields: [patientId], references: [id])
+  Dosage     Dosage?
+
+  @@map("med_prescriptions")
+}
+
+model Dosage {
+  id             Int          @id @default(autoincrement())
+  createdAt      DateTime     @default(now()) @map("created_at")
+  updatedAt      DateTime     @default(now()) @updatedAt @map("updated_at")
+  morning        Float
+  noon           Float
+  evening        Float
+  night          Float
+  prescriptionId Int          @unique @map("prescription_id")
+  Prescription   Prescription @relation(fields: [prescriptionId], references: [id])
+
+  @@map("med_dosages")
+}

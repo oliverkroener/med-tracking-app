@@ -1,0 +1,71 @@
+{
+  "sidebar": {
+    "appTitle": "Application de Suivi des Médicaments",
+    "menu": {
+      "dashboard": "Tableau de Bord",
+      "patients": "Patients",
+      "prescriptions": "Ordonnances",
+      "settings": "Paramètres"
+    },
+    "user": {
+      "doctorName": "Dr John Doe",
+      "profile": "Profil",
+      "signOut": "Déconnexion"
+    }
+  },
+  "landing": {
+    "welcomeMessage": "Bienvenue sur l'Application de Suivi des Médicaments",
+    "description": "Gérez efficacement les médicaments et les ordonnances de vos patients.",
+    "getStarted": "Commencer",
+    "hero": {
+      "title": "Gestion Moderne des Ordonnances",
+      "subtitle": "Optimisez vos prescriptions médicales avec notre plateforme numérique sécurisée. Suivez les médicaments, recevez des rappels et restez en bonne santé."
+    },
+    "features": {
+      "digitalPrescriptions": {
+        "title": "Ordonnances Numériques",
+        "description": "Gérez et suivez vos ordonnances médicales numériquement"
+      },
+      "secureAccess": {
+        "title": "Accès Sécurisé",
+        "description": "Vos données de santé sont protégées par une sécurité de niveau entreprise"
+      },
+      "medicineTracking": {
+        "title": "Suivi des Médicaments",
+        "description": "Surveillez votre calendrier de prise et vos dosages"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Entreprise",
+        "about": "À Propos",
+        "contact": "Contact",
+        "careers": "Carrières"
+      },
+      "legal": {
+        "title": "Mentions Légales",
+        "impressum": "Mentions Légales",
+        "privacy": "Politique de Confidentialité",
+        "terms": "Conditions d'Utilisation"
+      },
+      "resources": {
+        "title": "Ressources",
+        "docs": "Documentation",
+        "support": "Support",
+        "faq": "FAQ"
+      },
+      "connect": {
+        "title": "Connexion",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn"
+      },
+      "copyright": "© {year} MedTracker. Tous droits réservés."
+    },
+    "auth": {
+      "signIn": "Se Connecter",
+      "register": "S'inscrire",
+      "startTrial": "Commencer l'Essai Gratuit"
+    }
+  }
+}

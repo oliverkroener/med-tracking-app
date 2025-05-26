@@ -1,0 +1,71 @@
+{
+  "sidebar": {
+    "appTitle": "Medikamenten-Tracking App",
+    "menu": {
+      "dashboard": "Übersicht",
+      "patients": "Patienten",
+      "prescriptions": "Verschreibungen",
+      "settings": "Einstellungen"
+    },
+    "user": {
+      "doctorName": "Dr. John Doe",
+      "profile": "Profil",
+      "signOut": "Abmelden"
+    }
+  },
+  "landing": {
+    "welcomeMessage": "Willkommen bei der Medikamenten-Tracking App",
+    "description": "Verwalten Sie die Medikamente und Verschreibungen Ihrer Patienten effizient.",
+    "getStarted": "Jetzt starten",
+    "hero": {
+      "title": "Moderne Verschreibungsverwaltung",
+      "subtitle": "Optimieren Sie Ihre medizinischen Verschreibungen mit unserer sicheren digitalen Plattform. Verfolgen Sie Medikamente, erhalten Sie Erinnerungen und bleiben Sie gesund."
+    },
+    "features": {
+      "digitalPrescriptions": {
+        "title": "Digitale Verschreibungen",
+        "description": "Verwalten und verfolgen Sie Ihre medizinischen Verschreibungen digital"
+      },
+      "secureAccess": {
+        "title": "Sicherer Zugriff",
+        "description": "Ihre Gesundheitsdaten sind durch Enterprise-Grade-Sicherheit geschützt"
+      },
+      "medicineTracking": {
+        "title": "Medikamenten-Tracking",
+        "description": "Behalten Sie Ihren Medikamentenplan und die Dosierung im Blick"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Unternehmen",
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "careers": "Karriere"
+      },
+      "legal": {
+        "title": "Rechtliches",
+        "impressum": "Impressum",
+        "privacy": "Datenschutz",
+        "terms": "Nutzungsbedingungen"
+      },
+      "resources": {
+        "title": "Ressourcen",
+        "docs": "Dokumentation",
+        "support": "Support",
+        "faq": "FAQ"
+      },
+      "connect": {
+        "title": "Verbinden",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn"
+      },
+      "copyright": "© {year} MedTracker. Alle Rechte vorbehalten."
+    },
+    "auth": {
+      "signIn": "Anmelden",
+      "register": "Registrieren",
+      "startTrial": "Kostenlos testen"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Next.js API Routes",
+      "type": "pwa-node",             // Use the modern Node debugger
+      "request": "launch",
+      "cwd": "${workspaceFolder}",    // Root of your Next.js project
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["dev"],  // Assumes 'dev' script starts Next.js
+      "port": 9229,                    // Must match the inspect port
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

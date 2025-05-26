@@ -1,0 +1,71 @@
+{
+  "sidebar": {
+    "appTitle": "App de Seguimiento de Medicamentos",
+    "menu": {
+      "dashboard": "Panel de Control",
+      "patients": "Pacientes",
+      "prescriptions": "Recetas",
+      "settings": "Configuración"
+    },
+    "user": {
+      "doctorName": "Dr. John Doe",
+      "profile": "Perfil",
+      "signOut": "Cerrar Sesión"
+    }
+  },
+  "landing": {
+    "welcomeMessage": "Bienvenido a la App de Seguimiento de Medicamentos",
+    "description": "Gestione los medicamentos y recetas de sus pacientes de manera eficiente.",
+    "getStarted": "Comenzar",
+    "hero": {
+      "title": "Gestión Moderna de Recetas",
+      "subtitle": "Optimice sus recetas médicas con nuestra plataforma digital segura. Realice seguimiento de medicamentos, reciba recordatorios y manténgase saludable."
+    },
+    "features": {
+      "digitalPrescriptions": {
+        "title": "Recetas Digitales",
+        "description": "Gestione y realice seguimiento de sus recetas médicas digitalmente"
+      },
+      "secureAccess": {
+        "title": "Acceso Seguro",
+        "description": "Sus datos de salud están protegidos con seguridad de nivel empresarial"
+      },
+      "medicineTracking": {
+        "title": "Seguimiento de Medicamentos",
+        "description": "Mantenga un registro de su horario de medicación y dosis"
+      }
+    },
+    "footer": {
+      "company": {
+        "title": "Empresa",
+        "about": "Sobre Nosotros",
+        "contact": "Contacto",
+        "careers": "Carreras"
+      },
+      "legal": {
+        "title": "Legal",
+        "impressum": "Aviso Legal",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
+      },
+      "resources": {
+        "title": "Recursos",
+        "docs": "Documentación",
+        "support": "Soporte",
+        "faq": "Preguntas Frecuentes"
+      },
+      "connect": {
+        "title": "Conectar",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn"
+      },
+      "copyright": "© {year} MedTracker. Todos los derechos reservados."
+    },
+    "auth": {
+      "signIn": "Iniciar Sesión",
+      "register": "Registrarse",
+      "startTrial": "Comenzar Prueba Gratuita"
+    }
+  }
+}
